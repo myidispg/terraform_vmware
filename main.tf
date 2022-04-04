@@ -3,7 +3,7 @@
 # TODO: Prechecks
 
 module "redhat_build" {
-    count = var.os_name == 
+    # count = var.os_name == 
     source = "./modules/rhel"
     os_name = var.os_name
 }
