@@ -9,5 +9,5 @@
 # }
 
 output "dummy_output" {
-    value = "This is a test output for atlantis"
+    value = "This is a test output for atlantis. Branch 2"
 }
